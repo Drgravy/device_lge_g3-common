@@ -76,6 +76,9 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 HAVE_ADRENO_SOURCE:= false
 OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
